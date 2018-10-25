@@ -30,8 +30,6 @@ function rainbow(light, colors, cycleTime = 40, totalCycles = 10, currentCycle =
 
 const colorEffects = new ColorEffects(512);
 
-console.log(colorEffects.rainbow());
-
 function setLight (color, blink = 'none') {
   if (argv.off) return blyncs[0].turnOff();
   if(blink === 'rainbow') return rainbow(blyncs[0], [...colorEffects.rainbow(), ...colorEffects.rainbow(true)]);
