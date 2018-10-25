@@ -12,7 +12,7 @@ const argv = require('yargs')
 
 const blyncs = blyncCore.findAllBlyncLights();
 
-function rainbow(light, colors, cycleTime = 45, totalCycles = 5, currentCycle = 0) {
+function rainbow(light, colors, cycleTime = 40, totalCycles = 10, currentCycle = 0) {
   if (currentCycle < colors.length * totalCycles) {
     const newColorIndex = currentCycle % colors.length;
     const newColor = colors[newColorIndex];

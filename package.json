@@ -9,6 +9,7 @@
     "green": "node app.js -c green",
     "indigo": "node app.js -c indigo",
     "purple": "node app.js -c purple",
+    "rainbow": "node app.js -b rainbow",
     "off": "node app.js -o",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
