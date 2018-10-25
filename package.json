@@ -1,0 +1,23 @@
+{
+  "name": "blync-setter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "red": "node app.js -c red",
+    "blue": "node app.js -c blue",
+    "green": "node app.js -c green",
+    "indigo": "node app.js -c indigo",
+    "purple": "node app.js -c purple",
+    "off": "node app.js -o",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben",
+  "license": "ISC",
+  "dependencies": {
+    "blync-core": "^0.2.0",
+    "color-effects": "^1.0.0",
+    "rainbow-gradient": "^1.0.0",
+    "yargs": "^12.0.2"
+  }
+}
