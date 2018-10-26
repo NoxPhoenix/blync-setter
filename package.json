@@ -6,7 +6,7 @@
   "scripts": {
     "red": "node app.js -c red",
     "blue": "node app.js -c blue",
-    "green": "node app.js -c green",
+    "green": "node app.js -c=\"#00ff2b\"",
     "indigo": "node app.js -c indigo",
     "purple": "node app.js -c purple",
     "rainbow": "node app.js -b rainbow",
